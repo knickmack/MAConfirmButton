@@ -21,7 +21,7 @@ MAConfirmButton *confirmButton = [MAConfirmButton buttonWithTitle:@"Button Title
 h3. Init
 
 <pre>
-+ (MAConfirmButton *)buttonWithTitle:(NSString *)disabledString confirm:(NSString *)confirmString;
++ (MAConfirmButton *)buttonWithTitle:(NSString *)titleString confirm:(NSString *)confirmString;
 + (MAConfirmButton *)buttonWithDisabledTitle:(NSString *)disabledString;
 </pre>
 
